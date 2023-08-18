@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='glaciers_csv' inline='true' name='federated.1vgzfc21rzxlov1e0mitr0xc9g3f' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='glaciers_csv' name='textscan.148j2i91np599912infs01ihvux6'>
+            <connection class='textscan' directory='D:/UMD Master Year 1 College Work/Spring 2022/INST762-IM01 Visual Analytics/Final Project/Datasets/Glacier.Artic sea ice mass/data' filename='glaciers_csv.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.148j2i91np599912infs01ihvux6' name='glaciers_csv.csv' table='[glaciers_csv#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='Mean cumulative mass balance' ordinal='1' />
+            <column datatype='integer' name='Number of observations' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.148j2i91np599912infs01ihvux6' name='glaciers_csv.csv' table='[glaciers_csv#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='Mean cumulative mass balance' ordinal='1' />
+            <column datatype='integer' name='Number of observations' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[glaciers_csv.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[glaciers_csv.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[glaciers_csv.csv_62032A875D5F4709AFEF431DADB2CB35]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mean cumulative mass balance</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mean cumulative mass balance]</local-name>
+            <parent-name>[glaciers_csv.csv]</parent-name>
+            <remote-alias>Mean cumulative mass balance</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[glaciers_csv.csv_62032A875D5F4709AFEF431DADB2CB35]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of observations</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of observations]</local-name>
+            <parent-name>[glaciers_csv.csv]</parent-name>
+            <remote-alias>Number of observations</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[glaciers_csv.csv_62032A875D5F4709AFEF431DADB2CB35]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='glaciers_csv.csv' datatype='table' name='[__tableau_internal_object_id__].[glaciers_csv.csv_62032A875D5F4709AFEF431DADB2CB35]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='glaciers_csv.csv' id='glaciers_csv.csv_62032A875D5F4709AFEF431DADB2CB35'>
+            <properties context=''>
+              <relation connection='textscan.148j2i91np599912infs01ihvux6' name='glaciers_csv.csv' table='[glaciers_csv#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='real' name='Mean cumulative mass balance' ordinal='1' />
+                  <column datatype='integer' name='Number of observations' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Datahub Glacier Mass Balance'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='glaciers_csv' name='federated.1vgzfc21rzxlov1e0mitr0xc9g3f' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vgzfc21rzxlov1e0mitr0xc9g3f'>
+            <column datatype='real' name='[Mean cumulative mass balance]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mean cumulative mass balance]' derivation='Sum' name='[sum:Mean cumulative mass balance:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1vgzfc21rzxlov1e0mitr0xc9g3f].[sum:Mean cumulative mass balance:qk]</rows>
+        <cols>[federated.1vgzfc21rzxlov1e0mitr0xc9g3f].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{5478A616-7B92-42B3-9DE7-1789B594B285}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Datahub Glacier Mass Balance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0DFB3192-D792-4E8D-861C-07C405344F6C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Datahub Glacier Mass Balance' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
