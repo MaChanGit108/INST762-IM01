@@ -21,30 +21,47 @@ NASA. (n.d.). Overview: Weather, Global Warming and Climate Change. Nasa: Global
 For more in depth results of each analyses, please refer to video link of final project presentation above or the final project VisUMD blog post document.
 
 #### Analysis 1: World CO2 Emission Levels by Region and Country
+Left Figure: Total CO2 Emissions Bar Chart <br>
+Middle Figure: CO2 Per Capita Colored by Region time series Line Chart with multiple lines <br>
+Right Figure: C02 Per Capita Colored by Value time series Line Chart <br> <br>
 Data Source: Left: Climate Watch. 2020. CO2 Emissions (kt). The World Bank. Middle and RIght: Climate Watch. 2020. CO2 Emissions (metric tons per capita). The World Bank.
 
 #### Analysis 2: Global Surface Temperature
+Left Figure: Global Rise in Surface Temperature (in degrees Fahrenheit) time series Line Chart with two lines and predictive forecasting <br>
+Right Figure: Global Average Temperature in degrees Celsius From Sep. 1880 to Sep. 2013 Heat map plot of the global temp <br> <br>
 Data Source: Left: Global Temperature Time Series. DataHub. Right: Berkeley Earth. 2017. Climate Change: Earth Surface Temperature Data. Kaggle.
 
 #### Analysis 3: Datahub Glacier Mass Balance
+Figure: Datahub Glacier Mass Balance time series Line chart with trend line and predictive forecasting <br> <br>
 Data Source: Core. 2018. Average cumulative mass balance of reference Glaciers worldwide. Datahub.
 
 #### Analysis 4: Global Sea Levels
+Left Figure: CSIRO vs NOAA Adjusted Sea Level (in) time series Line chart with 2 lines double y-axis <br>
+Top Right Figure: CSIRO GMSL (mm) Month 1993-2015 time series Line chart <br>
+Bottom Right Figure: CSIRO RECONS GMSL (mm) Month 1880-2013 time series Line chart <br> <br>
 Data Source: Core. 2018. Global Average Absolute Sea Level 1880-2014. Datahub. <br>
 GMSL, or Global Mean Sea Level. CSIRO, or Commonwealth Scientific and Industrial Research Organisation. NOAA, or National Oceanic and Atmospheric Administration
 
 #### Analysis 5: Global Economic Losses from Weather Catastrophes 2007-2021
+Figure: Global Economic Losses from Weather Catastrophes 2007-2021 time series Line chart with trend line <br> <br>
 Data Source: Aon/Madhumitha Jaganmohan. 2022. Global Economic Losses from Weather Catastrophes 2007-2021. Statista. <br> https://www.nbcnews.com/id/wbna40739667. https://reliefweb.int/report/world/natural-disasters-2017#:~:text=These%20include%20Hurricane%20Harvey%2C%20Hurricane,to%20the%20annual%2098%20average.
 
 #### Analysis 6: Global Investments and Growth Rate
+Left Figure: Global Renewable Energy Investments 2019, by Region Bar chart <br>
+Top Right Figure: Global Clean Energy Investment Growth Rate 2005-2021 time series Line chart with trend line <br>
+Bottom Right Figure: Worldwide Investment in Clean Energy 2004-2018 time series Line chart with trend line and predictive forecasting <br> <br>
 Left: Madhumitha Jaganmohan/UNEP; Bloomberg; FS-UNEP Collaborating Centre. 2019. Global Renewable Energy Investments 2019, by Region. UNEP; Bloomberg; FS-UNEP Collaborating Centre. <br>
 Top Right: Madhumitha Jaganmohan/BloombergNEF. 2022. Global Clean Energy Investment Growth Rate 2005-2021. BloombergNEF. <br>
 Bottom Right: Madhumitha Jaganmohan/BloombergNEF; UNEP; FS-UNEP Collaborating Centre. 2020. Worldwide Investment in Clean Energy 2004-2019. BloombergNEF; UNEP; FS-UNEP Collaborating Centre.
 
 #### Analysis 7: Global Renewable Energy Consumption 2000-2020 (in Exajoules)
+Left Figure: Global Renewable Energy Consumption 2000-2020 (in Exajoules) Bar chart <br>
+Right Figure: Global Renewable Energy Consumption 2000-2020 (in Exajoules) time series Line chart with trend line and predictive forecasting <br> <br>
 Data Source: Madhumitha Jaganmohan/BP. 2021. Global Renewable Energy Consumption 2000-2020. BP. Note: https://www.statista.com/statistics/265598/consumption-of-primary-energy-worldwide/
 
 #### Analysis 8: Public Belief in the CLimate Emergency Worldwide 2020, by Country
+Left Figure: Public Belief in the Climate Emergency Worldwide 2020, by Country Bar chart <br>
+Right Figure: Public Belief in the Climate Emergency Worldwide 2020, by Country Heat map plot global by percentage <br> <br>
 Data Source: United Nations Development Programme (UNDP). 2021. Public belief in the climate emergency worldwide 2020, by country. University of Oxford.
 
 ## Recommendation
